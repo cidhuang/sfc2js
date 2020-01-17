@@ -59,3 +59,7 @@ typings/
 
 # OS Files
 .DS_Store
+
+# created by npm install
+package-lock.json
+postcss.config.js
