@@ -23,7 +23,7 @@ module.exports = (env) => {
 	const filepath = path.dirname(env.file);
 
 	return {
-		watch : true,
+		watch : false,
 		mode : 'production',
 		entry : {
 			[filename] : './entry.js'
